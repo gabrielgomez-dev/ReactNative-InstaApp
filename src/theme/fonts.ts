@@ -1,3 +1,5 @@
+import {TextStyle} from 'react-native';
+
 export const size = {
   xs: 12,
   sm: 14,
@@ -7,7 +9,7 @@ export const size = {
   xl: 24,
 };
 
-export const weight = {
+export const weight: {[key: string]: TextStyle['fontWeight']} = {
   full: '900',
   semi: '600',
   thin: '400',

@@ -1,24 +1,18 @@
-import {View, Text} from 'react-native';
-import colors from './src/theme/colors';
-import {size} from './src/theme/fonts';
-
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import {View, StyleSheet} from 'react-native';
+import HomeScreen from './src/screens/HomeScreen';
 
 const App = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: colors.primary,
-      }}>
-      <Text
-        style={{color: colors.white, fontSize: size.lg, fontWeight: 'bold'}}>
-        <MaterialIcons name="auto-fix-high" size={25} /> Hello World!
-      </Text>
+    <View style={styles.app}>
+      <HomeScreen />
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  app: {
+    flex: 1,
+  },
+});
 
 export default App;
