@@ -2,11 +2,15 @@ export default [
   {
     id: '1',
     createdAt: '9 March, 2024',
-    image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg',
+    images: [
+      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg',
+      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg',
+      'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/5.jpg',
+    ],
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     user: {
-      username: 'wildflower_25',
+      username: 'gabrielgo',
       image:
         'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg',
     },

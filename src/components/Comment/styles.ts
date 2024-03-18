@@ -12,6 +12,7 @@ export default StyleSheet.create({
   comment: {
     flexDirection: 'row',
     alignItems: 'center',
+    marginBottom: 3,
   },
   commentText: {
     fontSize: size.xs,
